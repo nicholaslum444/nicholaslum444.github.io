@@ -1,8 +1,84 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+	<title>
+		It's me.
+	</title>
+	<!-- Bootstrap core CSS -->
+	<link href="spacelab/bootstrap.min.css" rel="stylesheet">
+	<style>
+	body {
+		min-height: 2000px;
+		padding-top: 70px;
+	}	
+	</style>
+	<!-- Custom styles for this template -->
+	<link href="navbar-fixed-top.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  	<!-- Fixed navbar -->
+  	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  		<div class="container">
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  					<span class="sr-only">Toggle navigation</span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+  				<a class="navbar-brand" href="#">NUS SoC</a>
+  			</div>
+
+  			<div class="navbar-collapse collapse">
+  				<ul class="nav navbar-nav">
+  					<li class="active"><a href="#">Home</a></li>
+  					<li><a href="about.html">About SoC</a></li>
+  					<li><a href="departments.html">Departments</a></li>
+  					<li class="dropdown">
+  						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Undergraduate <b class="caret"></b></a>
+  						<ul class="dropdown-menu">
+  							<li><a href="undergraduate.html">Info for Current Students</a></li>
+  							<li><a href="#">CS Courses</a></li>
+  							<li><a href="#">IS Courses</a></li>
+  							<li class="divider"></li>
+  							<li class="dropdown-header">Other Stuff</li>
+  							<li><a href="#">Double Degree Programmes</a></li>
+  							<li><a href="#">Double Major</a></li>
+  						</ul>
+  					</li>
+  					<li><a href="research.html">Research</a></li>
+  					<li><a href="entrepreneurship.html">Entrepreneurship</a></li>
+  					<li><a href="research.html">Executive Education</a></li>
+  					<li><a href="research.html">External Relations</a></li>
+  				</ul>
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="../navbar/">Contact Us</a></li>
+  				</ul>
+  			</div><!--/.nav-collapse -->
+  		</div>
+  	</div>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <p><a href="downloads/apps/NicTacToe.apk">Nic Tac Toe</p>
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $('#sidebar').affix({
+    	offset: {>
+    		top: $('.navbar-default').height()
+    	}
+    }); </script>
 </body>
 </html>
